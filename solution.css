@@ -1,0 +1,22 @@
+span {
+    background-color: blue;
+    font-size: 24px;
+}
+
+div {
+    width: 100%;
+    font-size: 24px;
+    background-color: blue;
+}
+
+span:hover {
+    background: red;
+    transform-origin:left;
+    transition: 1s;
+}
+
+div:hover {
+    background: red;
+    transform-origin:left;
+    transition: 1s;
+}

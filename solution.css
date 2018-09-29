@@ -1,6 +1,7 @@
 span {
-    background-color: blue;
     font-size: 24px;
+    background: linear-gradient(to right, blue 50%, red 50%);
+    background-size: 200%;
 }
 
 div {
@@ -10,13 +11,11 @@ div {
 }
 
 span:hover {
-    background: red;
-    transform-origin:left;
-    transition: 1s;
+    background-position: -100%;
+    transition: 0.5s;
 }
 
 div:hover {
     background: red;
-    transform-origin:left;
     transition: 1s;
 }
